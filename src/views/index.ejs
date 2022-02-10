@@ -20,7 +20,6 @@
     <form action="/" method="post">
         <div>
             <label for="name">Ingrese su nombre*</label>
-            <!-- el for posiciona el cursor en el input -->
             <input type="text" name="name" id="name">
             <% if (locals.errors && errors.name) { %>
               <small class="text-danger"><%= errors.name.msg %></small>
